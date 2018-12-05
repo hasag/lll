@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="js/www.js"></script>
+	<link rel="stylesheet" type="text/css" href="less/style.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/swiper.min.css">
+	<title>首页</title>
+
+	<style>
+		html, body {
+	      position: relative;
+	      height: 100%;
+	    }
+	    body {
+	      background: #eee;
+	      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	      font-size: 14px;
+	      color:#000;
+	      margin: 0;
+	      padding: 0;
+	    }
+	    .swiper-container {
+	      width: 100%;
+	      height: 100%;
+	    }
+	    .swiper-slide {
+	      background-position: center;
+	      background-size: cover;
+	    }
+	</style>
+</head>
+<body>
+	<!-- 头部 -->
+	<header>
+		<div class="header">
+			<img src="img/dingwei.png" alt="" class="dingwei">
+			<div class="hefei">合肥</div>
+			<img src="img/xiabiao.png" alt="" class="xiabiao">
+			<div class="searchBox">
+				<img src="img/sousuo.png" alt="" class="sousuo">
+				<input type="text" placeholder="泰国山竹 69 元 5 斤包邮">
+			</div>
+			<img src="img/weixin.png" alt="" class="weixin">
+			<img src="img/saomiao.png" alt="" class="saomiao">
+		</div>
+	</header>
+	<!-- 分类 -->
+	<div class="classify">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		     	<div class="swiper-slide" style="background: #fff">
+		     		<ul>
+		     			<li>
+		     				<img src="img/fenlei1.png" alt="">
+		     				<p>今日特价</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei2.png" alt="">
+		     				<p>新鲜果蔬</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei3.png" alt="">
+		     				<p>肉禽蛋类</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei4.png" alt="">
+		     				<p>水产海鲜</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei5.png" alt="">
+		     				<p>安心乳品</p>
+		     			</li>
+		     		</ul>
+		     	</div>
+		      	<div class="swiper-slide" style="background: #fff">
+		      		<ul>
+		     			<li>
+		     				<img src="img/fenlei1.png" alt="">
+		     				<p>今日特价</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei2.png" alt="">
+		     				<p>新鲜果蔬</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei3.png" alt="">
+		     				<p>肉禽蛋类</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei4.png" alt="">
+		     				<p>水产海鲜</p>
+		     			</li>
+		     			<li>
+		     				<img src="img/fenlei5.png" alt="">
+		     				<p>安心乳品</p>
+		     			</li>
+		     		</ul>
+		      	</div>
+		    </div>  
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination swiper-pagination-white" id="white"></div>
+	  	</div>
+	  	 <!-- Swiper JS -->
+		<script src="dist/js/swiper.min.js"></script>
+		 <!-- Initialize Swiper -->
+			<script>
+			    var swiper = new Swiper('.swiper-container', {
+			      	pagination: {
+			        el: '.swiper-pagination',
+			        clickable: true,
+			    },
+			  		<!-- 轮播图效果部分 -->
+			  		effect : 'flip',
+			    });
+			</script>
+	</div>
+	<!-- 主体内容第一部分-活动资讯与特卖 -->
+	<div class="events">
+		<div class="events1">
+			<p>活动资讯</p>
+			<img src="img/laba.png" alt="" class="laba">
+			<h1>29.9 元购两个菲律宾凤梨！戳此抢购</h1>
+			<div class="jiantou1"><img src="img/jiantou1.png" alt="" ></div>
+		</div>
+		<div class="events2">
+			<div class="events3">
+				<img src="img/henggang.png" alt="">
+				<p>蓝莓果季&nbsp&nbsp&nbsp任你挑选</p>
+				<img src="img/henggang.png" alt="">
+			</div>
+			<div class="events4">进入专场</div>
+		</div>
+		<div class="events5">
+			<div class="events6">
+				<p>新品推荐&nbsp&nbsp低价特卖</p>
+				<h1>RECOMMEND</h1>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<p class="p1">智利鲜冻三文鱼块</p>
+				<p class="p2">280g/ 盒</p>
+				<a href="xiangqing.html"><img src="img/sanwenyu.png" alt="" class="sanwen"></a>
+				<p class="p3">鱼身肥美肉段，适合煎炸</p>
+				<p class="p4">特惠价&nbsp&nbsp<span>46</span>RMB</p>
+				<p class="p5">零售价&nbsp&nbsp56RMB</p>
+				<div>
+					<img src="img/che.png" alt="" class="che">
+					<p>加入购物车</p>
+				</div>
+			</li>
+			<span></span>
+			<li>
+				<p class="p1">台湾金钻凤梨</p>
+				<p class="p2">1250g/2 个</p>
+				<a href="xiangqing.html"><img src="img/fengli.png" alt="" class="fengli"></a>
+				<p class="p3">15°甜！逆袭金钻凤梨!</p>
+				<p class="p4">特惠价&nbsp&nbsp<span>29.9</span>RMB</p>
+				<p class="p5">零售价&nbsp&nbsp50RMB</p>
+				<div>
+					<img src="img/che.png" alt="" class="che">
+					<p>加入购物车</p>
+				</div>
+			</li>
+		</ul>
+		<p class="p6">更多推荐</p>
+		<div class="bolang"><img src="img/bolang.png" alt=""></div>
+	</div>
+	<!-- 主体内容第二部分-每日限量 -->
+	<div class="limit">
+		<div class="limit1">
+			<div class="limit2">
+				<div class="limit3"><p>每日限量</p></div>
+			</div>
+			<div class="limit4">
+				<div class="limit5">
+					<p>仅限 500 份</p>
+					<span>108RMB/1kg</span>
+					<a href="xiangqing.html"><img src="img/ji.png" alt=""></a>
+				</div>
+				<div class="limit6">
+					<p>原种皖南土鸡散养老母鸡</p>
+					<span>这款原种皖南土鸡散养老母鸡，不仅在基因上保证了正宗皖南土鸡血统，且完全遵照当地生态养殖传统，山林放养，食虫草喝山泉，生长周期均在 2 年以上，口感紧致，肉香味美，是不可多得的真正散养美味</span>
+				</div>
+			</div>
+			<div class="limit7">
+				<div class="limit8">
+					<p>仅限 300 份</p>
+					<span>88RMB/450g</span>
+					<a href="xiangqing.html"><img src="img/xia.png" alt=""></a>
+				</div>
+				<div class="limit9">
+					<p>加拿大熟冻波士顿龙虾</p>
+					<span>波士顿龙虾肉质紧实鲜嫩，味道也略甜，此款波士顿龙虾生长在崎岖蜿蜒的美国海岸纯净的原生态水域中，采用活虾急冻工艺，保证虾的安全与新鲜，原装进口，可直接解冻食用</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容第三部分-进店必买 -->
+	<div class="buy">
+		<img src="img/beijing3.png" alt="" class="img5"> 	
+		<div class="buy1">
+			<div class="buy2">
+				<p>进店必买</p>
+				<h1>STORE WILL BUY</h1>
+			</div>
+		</div>
+		<div class="buy3">
+			<a href="xiangqing.html"><img src="img/pingguo.png" alt=""></a>
+			<div class="buy4">
+				<div class="buy5">
+					<p class="p-1">29.9</p>
+					<p class="p-2">RMB</p>
+					<p class="p-3">&nbsp&nbsp34.9RMB&nbsp&nbsp</p>
+				</div>
+				<div class="buy6">
+					<p>甘肃天水花牛苹果</p>
+					<span>FRESH FRUITS<br>(75-80mm) 6 个装</span>
+				</div>
+			</div>
+		</div>
+		<div class="buy7">
+			<a href="xiangqing.html"><img src="img/chengzi.png" alt=""></a>
+			<div class="buy8">
+				<div class="buy9">
+					<p class="p-1">29.9</p>
+					<p class="p-2">RMB</p>
+					<p class="p-3">&nbsp&nbsp34.9RMB&nbsp&nbsp</p>
+				</div>
+				<div class="buy10">
+					<p>甘肃天水花牛苹果</p>
+					<span>FRESH FRUITS<br>(75-80mm) 6 个装</span>
+				</div>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<p class="p1">- 剪根香椿芽 -</p>
+				<p class="p2">150g/ 盒</p>
+				<div class="xiangchun"><a href="xiangqing.html"><img src="img/xiangchun.png" alt=""></a></div>
+				<div class="buy11">
+					<p class="p-1">15.9</p>
+					<p class="p-2">RMB</p>
+					<p class="p-3">&nbsp&nbsp16.9RMB&nbsp&nbsp</p>
+				</div>
+			</li>
+			<span></span>
+			<li>
+				<p class="p1">- 海南生蚝 -</p>
+				<p class="p2">5 个装</p>
+				<div class="xiangchun"><a href="xiangqing.html"><img src="img/shenghao.png" alt=""></a></div>
+				<div class="buy11">
+					<p class="p-1">40.0</p>
+					<p class="p-2">RMB</p>
+					<p class="p-3">&nbsp&nbsp45RMB&nbsp&nbsp</p>
+				</div>
+			</li>
+			<span></span>
+			<li>
+				<p class="p1">- 澳洲黑毛和牛片 -</p>
+				<p class="p2">200g/ 盒</p>
+				<div class="xiangchun"><a href="xiangqing.html"><img src="img/niurou.png" alt=""></a></div>
+				<div class="buy11">
+					<p class="p-1">48.0</p>
+					<p class="p-2">RMB</p>
+					<p class="p-3">&nbsp&nbsp50RMB&nbsp&nbsp</p>
+				</div>
+			</li>
+		</ul>
+		<div class="xiabiao1">
+			<img src="img/xiaobiao1.png" alt="">
+		</div>
+		<div class="buy12">查看全部</div>
+	</div>
+	<!-- 主体内容第四部分-推荐产品 -->
+	<div class="recommend">
+		<div class="recommend1">
+			<img src="img/beijing4.png" alt="" class="img7">
+			<div class="bolang">
+				<p>更多推荐</p>
+				<img src="img/bolang.png" alt="">
+			</div>
+			<img src="img/beijing5.png" alt="" class="img7">
+			<div class="bolang">
+				<p>更多推荐</p>
+				<img src="img/bolang.png" alt="">
+			</div>
+			<img src="img/beijing6.png" alt="" class="img7">
+			<div class="bolang">
+				<p>更多推荐</p>
+				<img src="img/bolang.png" alt="">
+			</div>
+			<div class="recommend2">
+				<div class="recommend3">
+					<p>大家都在买</p>
+					<h1>EVERBODY IS BUY</h1>
+				</div>
+			</div>
+			<ul>
+				<li>
+					<div class="recommend4"><a href="xiangqing.html"><img src="img/putao.png" alt=""></a></div>
+					<div class="recommend5">
+						<h1>崇明岛巨峰葡萄 3 斤装</h1>
+						<h2>紫黑色果皮，果肉饱满，吸一口满满纯正葡萄香</h2>
+						<div class="recommend6">
+							<p class="p-1">29.9</p>
+							<p class="p-2">RMB</p>
+							<p class="p-3">&nbsp&nbsp45RMB&nbsp&nbsp</p>
+						</div>
+						<div class="recommend7">
+							<img src="img/che.png" alt="" class="che">
+							<p>加入购物车</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="recommend4"><a href="xiangqing.html"><img src="img/zhurou.png" alt=""></a></div>
+					<div class="recommend5">
+						<h1>皖南山坡黑毛土猪汤骨 500g</h1>
+						<h2>产地直供，山坡散养，300 天以上饲养周期</h2>
+						<div class="recommend6">
+							<p class="p-1">29</p>
+							<p class="p-2">RMB</p>
+							<p class="p-3">&nbsp&nbsp48RMB&nbsp&nbsp</p>
+						</div>
+						<div class="recommend7">
+							<img src="img/che.png" alt="" class="che">
+							<p>加入购物车</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="recommend4"><a href="xiangqing.html"><img src="img/huxia.png" alt="" class="img8"></a></div>
+					<div class="recommend5">
+						<h1>越南黑虎虾 750g</h1>
+						<h2>壳薄体肥，虾身足有手掌般大</h2>
+						<div class="recommend6">
+							<p class="p-1">110</p>
+							<p class="p-2">RMB</p>
+							<p class="p-3">&nbsp&nbsp120RMB&nbsp&nbsp</p>
+						</div>
+						<div class="recommend7">
+							<img src="img/che.png" alt="" class="che">
+							<p>加入购物车</p>
+						</div>
+					</div>
+				</li>
+				<li class="li1">
+					<div class="recommend4"><a href="xiangqing.html"><img src="img/jidan.png" alt=""></a></div>
+					<div class="recommend5">
+						<h1>崇明散养土鸡蛋 10 枚</h1>
+						<h2>营养丰富，天然美味</h2>
+						<div class="recommend6">
+							<p class="p-1">12.9</p>
+							<p class="p-2">RMB</p>
+							<p class="p-3">&nbsp&nbsp19RMB&nbsp&nbsp</p>
+						</div>
+						<div class="recommend7">
+							<img src="img/che.png" alt="" class="che">
+							<p>加入购物车</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="bolang">
+				<p>更多推荐</p>
+				<img src="img/bolang.png" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 主体内容底部 -->
+	<div class="foot">
+		<img src="img/beijing7.png" alt="">
+	</div>
+	<!-- 主体内容底部导航栏 -->
+	<div class="navigation">
+		<ul>
+			<li>
+				<a href="index.html">
+					<img src="img/shouye.png" alt="" class="img4">
+					<p>首页</p>
+				</a>
+			</li>
+			<li>
+				<a href="fenlei.html">
+					<img src="img/fenlei.png" alt="" class="img3">
+					<p>分类</p>
+				</a>
+			</li>
+			<li>
+				<a href="###">
+					<img src="img/gouwuche.png" alt="" class="img3">
+					<p>购物车</p>
+				</a>
+			</li>
+			<li>
+				<a href="geren.html">
+					<img src="img/wode.png" alt="" class="img3">
+					<p>我的</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
