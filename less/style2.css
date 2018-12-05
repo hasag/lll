@@ -1,0 +1,241 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+}
+header img {
+  width: 100%;
+  height: 4.81333333rem;
+}
+ul {
+  width: 98%;
+  height: 1.16rem;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  width: 2.46666667rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul li h1 {
+  font-weight: 100;
+  font-size: 0.26666667rem;
+  color: #999;
+  margin-top: 0.06666667rem;
+}
+ul li span {
+  color: #999;
+  font-size: 0.26666667rem;
+  margin-top: 0.2rem;
+}
+ul .p1 {
+  width: 1px;
+  height: 0.53333333rem;
+  background: #FBD42A;
+}
+.order {
+  width: 100%;
+  height: 2.97333333rem;
+  background: #F2F2F2;
+  display: flex;
+  align-items: center;
+}
+.order .order1 {
+  width: 100%;
+  height: 2.50666667rem;
+  background: #fff;
+}
+.order .order1 .order2 {
+  width: 100%;
+  height: 0.8rem;
+  border-bottom: 1px solid #DCDCDC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order .order1 .order2 p {
+  font-size: 0.37333333rem;
+  margin-left: 0.26666667rem;
+}
+.order .order1 .order2 span {
+  font-size: 0.30666667rem;
+  margin-left: 5.6rem;
+  color: #999;
+}
+.order .order1 .order2 img {
+  margin-right: 0.29333333rem;
+}
+.order .order1 ul {
+  width: 95%;
+  height: 1.66666667rem;
+  margin: 0px auto;
+  display: flex;
+  align-items: flex-start;
+}
+.order .order1 ul li {
+  width: 1.84rem;
+  height: 1.53333333rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.order .order1 ul li h2 {
+  font-size: 0.29333333rem;
+  font-weight: 100;
+  color: #595959;
+  margin-top: 0.17333333rem;
+}
+.fenlei {
+  width: 100%;
+  height: 1.96rem;
+  background: #F2F2F2;
+}
+.fenlei .fenlei1 {
+  width: 100%;
+  height: 1.72rem;
+  background: #fff;
+}
+.fenlei .fenlei1 ul {
+  width: 80%;
+  height: 100%;
+}
+.fenlei .fenlei1 ul li {
+  width: 0.93333333rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fenlei .fenlei1 ul li h2 {
+  font-weight: 100;
+  font-size: 0.28rem;
+  color: #595959;
+  margin-top: 0.13333333rem;
+}
+.setup {
+  width: 100%;
+  height: 5.33333333rem;
+  display: flex;
+}
+.setup ul {
+  width: 1.01333333rem;
+  height: 100%;
+  margin-left: 0.32rem;
+  display: flex;
+  flex-direction: column;
+}
+.setup ul li {
+  width: 100%;
+  height: 1.04rem;
+  border-bottom: 1px solid #DCDCDC;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.setup dl {
+  width: 8.98666667rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.setup dl dt {
+  width: 100%;
+  height: 1.04rem;
+  border-bottom: 1px solid #DCDCDC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.setup dl dt p {
+  font-size: 0.33333333rem;
+}
+.setup dl dt img {
+  width: 0.13333333rem;
+  height: 0.24rem;
+  margin-right: 0.33333333rem;
+}
+.foot {
+  width: 100%;
+  height: 1.96rem;
+  background: #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot .foot1 {
+  width: 6.4rem;
+  height: 0.66666667rem;
+  background: #D03E2F;
+  border-radius: 0.33333333rem;
+  color: #fff;
+  font-size: 0.33333333rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kong {
+  width: 100%;
+  height: 1.30666667rem;
+}
+.navigation {
+  width: 100%;
+  height: 1.30666667rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+}
+.navigation ul {
+  width: 82%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul li {
+  width: 0.93333333rem;
+  height: 82%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navigation ul li a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.navigation ul li p {
+  width: 100%;
+  text-align: center;
+  font-size: 0.22666667rem;
+  color: #999;
+}
+.navigation ul li .img3 {
+  width: 0.72rem;
+  height: 0.69333333rem;
+}
+.navigation ul li .img4 {
+  width: 0.85333333rem;
+  height: 0.73333333rem;
+}

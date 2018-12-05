@@ -1,0 +1,136 @@
+@charset "UTF-8";
+*{margin:0px;padding:0px}
+*{box-sizing:border-box;}
+li{list-style: none}
+a{text-decoration: none;-webkit-tap-highlight-color: rgba(255, 255, 255, 0);-webkit-user-select: none;-moz-user-focus: none;-moz-user-select: none;}
+@num:75rem;
+html, body {
+	position: relative;
+	height: 100%;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	.Bootpage{
+		width: 100%;
+		height: 40/@num;
+		margin-top: 40/@num;
+		a{
+			color: #333;
+			font-size: 30/@num;
+			margin-right: 25/@num;
+			float: right;
+		}
+	}
+	.Bootpage2{
+		}
+		.yun1{
+			position: relative;
+			bottom: 370/@num;
+			left: 220/@num;
+			img{
+				width: 135/@num;
+				height: 68/@num;
+				position: relative;
+				animation: myfirst 1.8s infinite;
+			}	
+		}
+		@keyframes myfirst{
+			0%   {right: 0px;}
+			50%  {right: 60px;}
+			100%  {right: 0px;}
+		}
+		.yun2{
+			position: relative;
+			bottom: 420/@num;
+			left: 400/@num;
+			img{
+				width: 129/@num;
+				height: 67/@num;
+				position: relative;
+				animation: myfirstt 1.8s infinite;
+			}
+		}
+		@keyframes myfirstt{
+			0%   {right: 0px;}
+			50%  {right: -80px;}
+			100%  {right: 0px;}
+		}
+		.Bootpage1{
+			width: 100%;
+			height: 554/@num;
+			padding-top: 54/@num;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img{
+				width: 497/@num;
+				height: 390/@num;
+				margin-top: 75/@num;
+			}
+		}
+	}
+	p{
+		width: 100%;
+		font-size: 50/@num;
+		color: #FD663B;
+		text-align: center;
+		
+	}
+	h1{
+		font-weight: 100;
+		width: 100%;
+		font-size: 35/@num;
+		text-align: center;
+		margin-top: 15/@num;
+		
+	}
+	.span1{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		span{
+			width: 255/@num;
+			height: 52/@num;
+			display: inline-block;
+			display: flex;
+			justify-content: center;
+			align-items: center;	
+			border-radius: 20/@num;
+			background: #FBD42A;
+			font-size: 30/@num;
+			margin-top: 50/@num;
+			color: #333;
+		}
+	}
+.Bootpage3{
+	width: 100%;
+	height: 717/@num;
+	margin-top: 35/@num;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.che1{
+		width: 528/@num;
+		height: 235/@num;
+	}
+	.zhekou{
+		width: 438/@num;
+		height: 394/@num;
+	}
+}
+	#dian{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		.swiper-pagination-bullet{
+			width: 50/@num;
+			height: 20/@num;
+			border-radius: 20/@num;
+			background: #aaa;
+			margin-left: 30/@num;
+		}
+		.swiper-pagination-bullet-active{
+			background: #FD663B;
+		}
+	}	
